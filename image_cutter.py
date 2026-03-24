@@ -8,7 +8,7 @@ icon = Image.open('brush_icon.png')
 icon.resize((50, 50), resample=Image.Resampling.LANCZOS)
 photo_icon = ImageTk.PhotoImage(icon)
 tk.wm_iconphoto(True, photo_icon)
-tk.title('Poster Cutter')
+tk.title('Image Cutter')
 w = 700
 h = 550
 posx = tk.winfo_screenwidth()  // 2 - w // 2
